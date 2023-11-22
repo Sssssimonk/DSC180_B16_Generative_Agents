@@ -1,0 +1,24 @@
+{
+    "town_areas": {
+      "Town Square": "The center of the town",
+      "Police Office": "The town's security department maintains the safety of the town",
+      "Supermarket": "Place for residents to buy daily groceries",
+      "Central Park": "Ordinary town residents walk and play here, and gather here on weekends.",
+      "City Hall": "This is the administrative headquarters of the town",
+      "Coffee Shop": "Places that serve different drinks like coffee and other beverages"
+    },
+    "town_people": {
+        "Jack": {
+          "description": "Jack is a government employee, works at City Hall",
+          "starting_location": "Town Square"
+        },
+        "Tom": {
+          "description": "Tom is a policeman. Tom is busy every day and needs to be responsible for the security of the town, so tom patrols the town every day.",
+          "starting_location": "Town Square"
+        },
+        "Lee": {
+          "description": "Lee is a recent college graduate who just moved to this small town. Lee works at the coffee shop",
+          "starting_location": "Town Square"
+        }
+      }
+}

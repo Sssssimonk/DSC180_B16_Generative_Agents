@@ -1,0 +1,9 @@
+{
+    "model_config":{
+        "access_token":"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",
+        "model_name":"meta-llama/Llama-2-7b-chat-hf"
+    },
+    "generation_config":{
+
+    }
+}
