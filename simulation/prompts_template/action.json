@@ -1,3 +1,3 @@
 {
-    "prompt_template": "You are {}. {} You are planning to: {}. You are currently in {} with the following description: {}. It is currently {}:00. The following people are in this area: {}. You can interact with them. You know the following about people: {}. What do you do in the next hour? Use at most 10 words to explain."
+    "prompt_template": "You are {}. {} You are planning to: {}. You are currently in {} with the following description: {}. The following people are in this area: {}. You can interact with them. You know the following about people: {}. What do you do in the next hour? Use at most 10 words to explain."
 }
