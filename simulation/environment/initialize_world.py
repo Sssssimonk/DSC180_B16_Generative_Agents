@@ -19,7 +19,7 @@ def initialize_world():
     for town_area in town_areas.keys():
         world_graph.add_edge(town_area, "Town Square")
 
-    return world_graph
+    return town_areas, world_graph
 
     # nx.draw(world_graph, with_labels=True)
     # plt.show()
@@ -30,6 +30,7 @@ def initialize_agent():
     compressed_memories = {}
     plans = {}
     locations = {}
+    description = {}
 
     # read town_people in the config file
     script_dir = os.path.dirname(__file__)
@@ -43,6 +44,7 @@ def initialize_agent():
         plans[name] = []
         compressed_memories[name] = []
         locations[name] = "Town Square" 
+        description[name] = town_people[name]['description']
 
     # global_time = 8
     # def generate_description_of_area(x):
@@ -52,4 +54,4 @@ def initialize_agent():
     #         if locations[i] == x:
     #         people.append(i)
 
-    return memories, compressed_memories, plans, locations
+    return description, memories, compressed_memories, plans, locations
