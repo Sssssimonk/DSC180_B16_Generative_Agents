@@ -22,7 +22,7 @@ To run the simulation, you simply need to run the `main.py `. This file will cal
 ### Running `main.py`
 Follow these steps to run `main.py`:
 1. **Open Terminal or Command Line:**
-   - Navigate to the directory simulation, where `main.py` is located.
+   - Navigate to the directory `simulation`, where `main.py` is located.
 2. **Execute the Script:**
    - Run the following command:
    ```bash
