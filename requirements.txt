@@ -3,4 +3,4 @@ transformers
 sentencepiece
 torch
 sentence-transformers
-bitandbytes
+bitsandbytes
