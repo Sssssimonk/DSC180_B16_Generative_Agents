@@ -28,4 +28,3 @@ Follow these steps to run `main.py`:
    ```bash
    python main.py
    ```
-   - Note: After running the command, you will be ask to input a number to limit the times of generating results. Please enter a positive integer less than 10.
